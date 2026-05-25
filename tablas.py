@@ -19,7 +19,8 @@ cursor.execute("""
 CREATE TABLE bebidas (
     id SERIAL PRIMARY KEY,
     nombre VARCHAR(100),
-    precio INT
+    precio INT,
+    imagen VARCHAR(255) DEFAULT 'default.jpg'
 );
 """)
 
