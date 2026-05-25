@@ -155,7 +155,7 @@ Werkzeug>=2.3.0
 
 ## 🎯 Cómo Probar las Mejoras
 
-### Opción 1: Acceso Sin Autenticación (Desarrollo)
+### Opción 1: Acceso Sin Autenticación (Desarrollo) 
 ```bash
 # En PowerShell
 $env:MODO_DESARROLLO="True"
